@@ -12,7 +12,7 @@ model.train(
     data="configs/train_yolo_stage1_crack.yaml",
     epochs=100,
     batch=16,
-    imgsz=1024,
+    imgsz=416,
     device=0,
     workers=8,
     amp=True,
