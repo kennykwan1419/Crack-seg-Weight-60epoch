@@ -1,0 +1,22 @@
+path: datasets/crackseg
+
+train: images/train
+val: images/val
+
+names:
+  0: crack
+
+task: segment
+
+imgsz: 416
+epochs: 100
+batch: 16
+optimizer: SGD
+lr0: 0.01
+
+augment:
+  hsv: 0.015
+  flipud: 0.0
+  fliplr: 0.5
+  mosaic: 0.1
+  blur: 0.2
