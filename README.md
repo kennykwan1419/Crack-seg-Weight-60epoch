@@ -21,6 +21,11 @@ CrackSeg-Stage1/
 └── README.md                   # 当前文件
 ```
 
+🔸 单张图片推理
+```
+  python infer_crack.py --model best.pt --source test.jpg
+```
+
 ---
 
 # ⚙️ 2. 环境依赖（Dependencies）
